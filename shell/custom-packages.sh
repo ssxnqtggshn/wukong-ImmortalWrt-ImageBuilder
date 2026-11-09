@@ -9,7 +9,7 @@
 # 新增Run安装器 用于快速安装makeself打包的run文件 目前和quickfile的nginx配置冲突 请勿同时集成quickfile
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-run"
 # 【在这里添加】确保固件原生自带 OverlayFS 文件系统模块，供 Docker 使用
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-fs-overlayfs"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES kmod-fs-overlayfs"
 # 首页和网络向导
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 新增非常好用的文件管理器 sbwml/luci-app-quickfile （luci 23版本不支持 勿集成）
